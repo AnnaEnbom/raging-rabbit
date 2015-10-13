@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    return 'hello world';
+    return 'hello world Rabbit project 1 Rabbit project 2';
     return view('welcome');
 });
