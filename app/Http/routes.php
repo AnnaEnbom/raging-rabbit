@@ -16,3 +16,7 @@ Route::get('/', function () {
     return 'hello world Rabbit project 1 Rabbit project 2';
     return view('welcome');
 });
+
+Route::get('/remote', function () {
+    return 'remote';
+});
